@@ -1,0 +1,23 @@
+{
+  "name": "frontend-challenge",
+  "version": "1.0.0",
+  "description": "Front end challenge",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guimap/frontend-challenge.git"
+  },
+  "author": "Guilherme <guiihpr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guimap/frontend-challenge/issues"
+  },
+  "homepage": "https://github.com/guimap/frontend-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
