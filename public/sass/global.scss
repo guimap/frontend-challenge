@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  @for $size from 1 through 6 {
+    h#{$size} {
+      margin: 0 auto 15px;
+      font-weight: 500;
+      &.light {
+        font-weight: 300;
+      }
+    }
+  }
+  strong {
+    font-weight: 800;
+  }
+  a, label, p {
+    font-weight: 500;
+  }
+  span {
+    font-weight: 300;
+  }
+}
+
+/* Grid utils */
+.row {
+  display: flex;
+  flex-direction: row;
+  
+    @for $i from 1 through 12 {
+      .col-#{$i} {
+        flex: #{$i};
+      }
+  }
+}
+/* Grid utils */
+
+/* Buttons Definition */
+.button {
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  text-transform: uppercase;
+  transition: .3s ease-in-out color;
+  font-weight: 500;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 10px 40px;
+  &.white {
+    background-color: $white-primary;
+    color: $black-primary;
+    border-color: $black-primary;
+    &:hover {
+      background-color: $black-primary;
+      color: $white-primary;
+    }
+  }
+
+  &.black {
+    background-color: $black-primary;
+    border-color: $black-primary;
+    color: $white-primary;
+    &:hover {
+      background-color: $black-primary-light;
+      border-color: $black-primary-light;
+      color: $white-primary;
+    }
+  }
+}

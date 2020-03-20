@@ -1,0 +1,200 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body h1 {
+  margin: 0 auto 15px;
+  font-weight: 500;
+}
+body h1.light {
+  font-weight: 300;
+}
+body h2 {
+  margin: 0 auto 15px;
+  font-weight: 500;
+}
+body h2.light {
+  font-weight: 300;
+}
+body h3 {
+  margin: 0 auto 15px;
+  font-weight: 500;
+}
+body h3.light {
+  font-weight: 300;
+}
+body h4 {
+  margin: 0 auto 15px;
+  font-weight: 500;
+}
+body h4.light {
+  font-weight: 300;
+}
+body h5 {
+  margin: 0 auto 15px;
+  font-weight: 500;
+}
+body h5.light {
+  font-weight: 300;
+}
+body h6 {
+  margin: 0 auto 15px;
+  font-weight: 500;
+}
+body h6.light {
+  font-weight: 300;
+}
+body strong {
+  font-weight: 800;
+}
+body a, body label, body p {
+  font-weight: 500;
+}
+body span {
+  font-weight: 300;
+}
+
+/* Grid utils */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.row .col-1 {
+  flex: 1;
+}
+.row .col-2 {
+  flex: 2;
+}
+.row .col-3 {
+  flex: 3;
+}
+.row .col-4 {
+  flex: 4;
+}
+.row .col-5 {
+  flex: 5;
+}
+.row .col-6 {
+  flex: 6;
+}
+.row .col-7 {
+  flex: 7;
+}
+.row .col-8 {
+  flex: 8;
+}
+.row .col-9 {
+  flex: 9;
+}
+.row .col-10 {
+  flex: 10;
+}
+.row .col-11 {
+  flex: 11;
+}
+.row .col-12 {
+  flex: 12;
+}
+
+/* Grid utils */
+/* Buttons Definition */
+.button {
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out color;
+  font-weight: 500;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 10px 40px;
+}
+.button.white {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+.button.white:hover {
+  background-color: #000;
+  color: #fff;
+}
+.button.black {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+.button.black:hover {
+  background-color: #575757;
+  border-color: #575757;
+  color: #fff;
+}
+
+.menu-top {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0 15px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+}
+.menu-top .wrapper {
+  margin: auto;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Menu de ações */
+  /* Menu de ações */
+}
+.menu-top .wrapper .logo {
+  flex: 1 1 1;
+  width: 190px;
+  height: 38px;
+}
+.menu-top .wrapper .logo img {
+  max-width: 100%;
+  position: relative;
+}
+.menu-top .wrapper .actions {
+  flex: 2;
+  text-align: right;
+}
+.menu-top .wrapper .actions .menu {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.menu-top .wrapper .actions .menu li {
+  display: inline;
+  margin: auto 10px;
+}
+.menu-top .wrapper .actions .menu li a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+.container ul.breadcumb {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+.container ul.breadcumb li {
+  display: inline;
+}
+.container ul.breadcumb li, .container ul.breadcumb li :hover, .container ul.breadcumb li :visited, .container ul.breadcumb li a, .container ul.breadcumb li a :hover, .container ul.breadcumb li a :visited {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+.container ul.breadcumb li span.separator {
+  color: #575757;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=app.css.map */

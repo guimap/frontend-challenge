@@ -4,7 +4,8 @@
   "description": "Front end challenge",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node_modules/.bin/sass public/sass/app.scss:public/css/app.css && node index.js",
+    "sass:debug": "node_modules/.bin/sass --watch public/sass/app.scss public/css/app.css",
     "start:debug": "node_modules/.bin/nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +21,9 @@
   "homepage": "https://github.com/guimap/frontend-challenge#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sass": "^1.26.3"
   }
 }

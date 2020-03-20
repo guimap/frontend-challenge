@@ -1,0 +1,26 @@
+.container {
+  width: 75%;
+  display: block;
+  margin: auto;
+
+  ul.breadcumb {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    li {
+      display: inline;
+      &, a {
+        &, :hover, :visited {
+          font-size: 14px;
+          font-weight: 500;
+          text-decoration: none;
+          color: $black-primary;
+        }
+      }
+      span.separator {
+        color: $black-primary-light;
+        font-size: 14px;
+      }
+    }
+  }
+}

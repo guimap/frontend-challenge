@@ -9,7 +9,7 @@ app.get('/fields', (req, res) => {
   res.send(JSON.stringify(fields));
 });
 
-app.get('/', (req, res) => {
+app.get('/moda-e-beleza/cabeleireiros', (req, res) => {
   res.sendFile(path.join(__dirname, 'app','index.html'))
 });
 
